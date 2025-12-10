@@ -9,7 +9,6 @@ The dataset used for this project was modified from raw data obtained by scrapin
 Data Cleaning and Exploratory Data Analysis
 ## Assessment of Missingness
 
-<div style="overflow-x:auto;">
 | name                                 |   rating |   average rating per recipe |   protein_PDV |   calories | date                |
 |:-------------------------------------|---------:|----------------------------:|--------------:|-----------:|:--------------------|
 | 1 brownies in the world    best ever |        4 |                           4 |             3 |      138.4 | 2008-11-19 00:00:00 |
@@ -17,7 +16,6 @@ Data Cleaning and Exploratory Data Analysis
 | 412 broccoli casserole               |        5 |                           5 |            22 |      194.8 | 2008-12-31 00:00:00 |
 | 412 broccoli casserole               |        5 |                           5 |            22 |      194.8 | 2009-04-13 00:00:00 |
 | 412 broccoli casserole               |        5 |                           5 |            22 |      194.8 | 2013-08-02 00:00:00 |
-</div>
 
 ## Hypothesis Testing
 
