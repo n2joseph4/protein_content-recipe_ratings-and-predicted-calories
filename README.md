@@ -17,6 +17,14 @@ Data Cleaning and Exploratory Data Analysis
 | 412 broccoli casserole               |        5 |                           5 |            22 |      194.8 | 2009-04-13 00:00:00 |
 | 412 broccoli casserole               |        5 |                           5 |            22 |      194.8 | 2013-08-02 00:00:00 |
 
+<iframe
+  src="assets/protein-pdv-distribution.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+
 ## Hypothesis Testing
 
 ## Framing a Prediction Problem
