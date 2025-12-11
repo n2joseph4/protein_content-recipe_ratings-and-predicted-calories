@@ -81,11 +81,11 @@ Since the p-value is less than the chosen critical value of 0.05, the null hypot
 
 ## Framing a Prediction Problem
 
-
+Prediction Problem: Predict the response variable of calories of a recipe, which was extracted from the original nutrition column of the dataframe, using engineered features or the protein_PDV and the rating of that recipe, all of which are known at the time of prediction. This is a regression problem and not a classification problem since I will be predicting a numerical value. The calories of a recipe variable was chosen in order to help dietitians, bodybuilders, coaches, and health conscious folks to choose recipes that will fit in their diet plans and calorie goals. The metric that I chose to evaluate my model is R2. This metric was selected because it summarizes the proportion of variance in recipe calorie content, the response variable, that is explained by my linear regression model.
 
 ## Baseline Model
 
-
+The baseline model uses the features of protein_PDV and the rating of that recipe to predict the response variable, which is recipe calorie content. The model was trained using an 80/20 train test split and a 5-fold cross-validation was used during model evaluation to ensure that the R² result was not dependent on a particular split of the dataset. The recipe protein_PDV feature, which was originally extracted from the nutrition column, is a quantitative value that was column transformed with a standard scaler. The recipe rating feature is an ordinal value that was also column transformed with a standard scaler. Standardization was done so that coefficients can be compared directly in the baseline model. The baseline model achieved a R2 of 0.4855 which means that around 49% of the variance in recipe calorie content is explained by the baseline model. Therefore, this baseline model is not great to predict calorie content since more than half of the variation in calorie content is not accounted for which indicates that the model lacks important predictive features. 
 
 ## Final Model
 
