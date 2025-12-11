@@ -27,9 +27,12 @@ In order to perform analysis using this dataframe, multiple data cleaning steps 
 ></iframe>
 The univariate plot of protein in terms of percent daily value shows the distribution of the amount of protein in the recipes with regards to a 2000 calorie diet. The box plot shows a right skew  and 50% of the distribution of protein is less than 50% of the recommended percent daily value of protein intake.  
 
-
-
-
+<iframe
+  src="assets/protein-pdv-by-rating.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 The bivariate plot shows the distribution of protein in terms of percent daily value across different ordinal ratings. There is strict overlap of each of the 5 boxplots for each rating but when comparing medians, there seems to be a prominent peak at a rating of 4 in the distribution.
 
 
