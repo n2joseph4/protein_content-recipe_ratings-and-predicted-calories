@@ -36,7 +36,13 @@ The univariate plot of protein in terms of percent daily value shows the distrib
 The bivariate plot shows the distribution of protein in terms of percent daily value across different ordinal ratings. There is strict overlap of each of the 5 boxplots for each rating but when comparing medians, there seems to be a prominent peak at a rating of 4 in the distribution.
 
 
-
+|   rating |   ('count', 'protein_PDV') |   ('median', 'protein_PDV') |   ('mean', 'protein_PDV') |   ('std', 'protein_PDV') |
+|---------:|---------------------------:|----------------------------:|--------------------------:|-------------------------:|
+|        1 |                       2672 |                        14   |                   31.5921 |                  38.8018 |
+|        2 |                       2262 |                        17.5 |                   33.0619 |                  36.1072 |
+|        3 |                       6900 |                        19   |                   33.1591 |                  35.6244 |
+|        4 |                      36099 |                        20   |                   32.6051 |                  33.8447 |
+|        5 |                     163084 |                        17   |                   30.8553 |                  34.4322 |
 This is an interesting pivot table that shows the counts, medians, mean, and standard deviations of the percent daily value of protein in recipes across different ratings. Notably, as the recipe ratings increase, the number of recipes increases correspondingly but the standard deviation of protein percent daily value decreases. The inferences made in the previous bivariate plot is confirmed through the analysis of the median in this table which clearly shows the peak of the protein percent daily value distribution at a rating of 4. The average ratings remain largely uniform across the different rating levels.
 
 ## Hypothesis Testing
