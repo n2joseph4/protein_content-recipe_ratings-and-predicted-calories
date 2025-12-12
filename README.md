@@ -96,3 +96,10 @@ For my final model, I chose a random forest algorithm since it captures nonlinea
 
 ## Fairness Analysis
 
+As part of my fairness analysis, I split my data into two groups and tested whether my model is fair for both groups. I separated the recipes into two groups based on date, specifically the first group are recipes submitted before January 1, 2011, which are older recipes, and the second group are recipes submitted on or after January 1, 2011, which are newer recipes. I used RMSE of predicted calories as my evaluation metric. My null hypothesis is that my final model’s RMSE is similar for recipes posted before January 1, 2011 and those recipes posted on or after January 1, 2011. My alternative hypothesis is that my final model’s RMSE differs between the two groups and so may have a slight bias. In this fairness analysis, I used the difference in RMSE between the two groups as my evaluation metric and a significance level of 0.05. My resulting p-value is 0.009 and since this is lower than my significance level of 0.05, I reject the null hypothesis and conclude that there is a significant difference in the RMSE of predicted calories between recipes posted before January 1, 2011 and recipes posted on or after January 1, 2011.
+<iframe
+  src="assets/rmse-diff-permutation-test.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
