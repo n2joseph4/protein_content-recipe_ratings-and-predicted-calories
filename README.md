@@ -70,9 +70,12 @@ Null Hypothesis: Recipes with higher protein content (higher protein_PDV) have s
 Alternative Hypothesis: Recipes with higher protein content (higher protein_PDV) have ratings that differ from recipes with lower protein content (lower protein_PDV).
 
 I chose the ANOVA F-statistic since I will be comparing the mean ratings between two groups, which are the recipes with higher protein content and the recipes with lower protein content. Since the F-statistic compares the between group noise to the within group noise, it is the appropriate measure for determining whether the average ratings of the two protein groups differ significantly. The significance level chosen for the p-value is 0.05 since it is a standard threshold that controls the amount of false rejections of the null hypothesis while also allowing for detection of  differences between the two groups. The results of the test are stated below:
+
 Observed ANOVA F-statistic: 26.237
+
 Permutation test p-value = 0.0000
-Since the p-value is less than the chosen critical value of 0.05, the null hypothesis can be rejected and therefore there is evidence that average rating differs between high-protein and low-protein recipes. Furthermore, the large F-statistic indicates that the variability between group means is much larger than the variability within groups, as shown in the figure below.
+
+Since the p-value is less than the chosen critical value of 0.05, the null hypothesis may be rejected and therefore the average rating of a recipe may differ between high protein and low protein recipes. Furthermore, the large F-statistic indicates that the variability between group means is much larger than the variability within groups, as shown in the figure below.
 <iframe
   src="assets/permutation-anova-f.html"
   width="800"
